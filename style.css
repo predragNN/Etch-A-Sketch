@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nabla {
+    font-family: "Nabla", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "EDPT" 100,
+      "EHLT" 12;
+}
+  
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 60px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: red;
+}
+
+.header {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.main {
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.botom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.button {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+#color-picker {
+    display: none;
+}
