@@ -18,7 +18,7 @@ function createGrid(pixels, divsInRow){
     for (let i=0; i<pixels; i++){
         const div = document.createElement("div");
         div.classList.add("kid");
-        div.style.cssText=`flex: 1 1 calc(100% / ${divsInRow}); border: 1px solid gray;`;
+        div.style.cssText=`flex: 1 1 calc(100% / ${divsInRow}); border: 1px dashed gray; cursor: pointer`;
         grid.appendChild(div);
     }
 }
